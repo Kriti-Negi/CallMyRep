@@ -1,0 +1,24 @@
+.page-container{
+    padding: 50px 100px;
+}
+
+.spacer-40{
+    height: 40px;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+}
+
+h2{
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+}
+
+/*Card*/
+
+.card > p, .card > h2{
+    margin: 0;
+}

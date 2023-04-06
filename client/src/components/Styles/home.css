@@ -1,0 +1,63 @@
+body{
+    background-color: #E9EBFF;
+}
+
+p{
+    font-size: 18px;
+    line-height: 175%;
+}
+
+.spacer-30{
+    height: 30px;
+}
+
+.header-section, .about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 10%;
+    grid-gap: 30px;
+}
+
+.about-us{
+    padding: 90px 50px;
+}
+
+.left-header-section{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px 30px 0;
+}
+
+.right-header-section{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 70px 50px;
+}
+
+.left-about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-about-section{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.right-header-img{
+    max-width: 400px;
+}
+
+.hero-banner{
+    background-color:#4B5587;
+    color: #fff;
+    padding: 100px 25%;
+    text-align: center;
+}
+

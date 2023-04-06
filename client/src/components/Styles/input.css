@@ -1,0 +1,38 @@
+.input-container{
+    display: grid;
+    font-size: 20px;
+}
+
+.input-container > label{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.input-container > input, .input-container > textarea{
+    border: 1px solid #304373;
+    outline: 0;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #E9EBFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+.zipcode-input-container > input {
+    border: 1px solid #4B5587;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.tag{
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 10px 10px;
+    border: 0;
+    background-color: #304373;
+    color: #fff;
+    margin-left: 5px;
+}

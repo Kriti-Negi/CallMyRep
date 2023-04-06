@@ -1,0 +1,45 @@
+.button{
+    font-size: 1rem;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 8px 0px;
+    border: 3px solid #F88379;
+    text-decoration: none;
+}
+
+.button-container-300{
+    width: 300px;
+}
+
+.filled{
+    background-color: #F88379;
+    color: #fff;
+}
+
+.outline{
+    border: 3px solid #F88379;
+    background-color: #E9EBFF;
+    color: #F88379;
+}
+
+.zipcode-input{
+    display: grid;
+    grid-template-columns: 1fr 0.25fr;
+    align-items: center;
+    grid-gap: 80px;
+}
+
+.search-btn{
+    background-color: #F88379;
+    border: 0;
+    outline: 0;
+    padding: 18px;
+    width: 100%;
+    border-radius: 8px;
+    color: #E9EBFF;
+    font-weight: bold;
+}

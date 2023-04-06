@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5%;
+    background-color: #4B5587;
+}
+
+.navbar > .right-navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right-navbar-single{}
+
+.nav-link{
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}

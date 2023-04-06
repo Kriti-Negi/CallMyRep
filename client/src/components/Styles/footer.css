@@ -1,0 +1,26 @@
+footer{
+    padding: 15px 5%;
+    padding-top: 90px;
+
+    background-color: #4B5587;
+    margin-bottom: -30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 30px;
+}
+
+.footer-img{
+    width: 80px;
+}
+
+.footer-text > h3{
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+.footer-text > p{
+    font-size: 14px;
+    margin: 0;
+}
